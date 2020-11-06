@@ -3,7 +3,7 @@ h1{
     position: absolute;
     text-align: center;
     font-size: 50px;
-    top: 18%;
+    top: 10%;
     width: 100%;
 }
 
@@ -63,13 +63,42 @@ nav ul a{
 
 nav ul li {
     display: inline-block;
+    border-right: 1px solid rgb(39, 39, 39);
     width: 32%;
     padding: 0.25rem;
     text-align: center;
     box-sizing: border-box;
-    border-right: 1px solid rgb(39, 39, 39);
   }
 
   nav ul li:last-child {
-  border: none;
+    border: none;
 }
+
+.bullet-section {
+    padding-left: 1em;
+}
+
+form {
+    border: 1px solid rgb(39, 39, 39) ;
+    padding: 2em;
+    padding-left: 1em;
+}
+
+.form-elements {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+textarea {
+    width: 100%;
+}
+
+.review-ticks {
+    display: inline-block;
+}
+
