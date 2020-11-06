@@ -1,18 +1,30 @@
 h1{
     color:white;
+    position: absolute;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    top: 18%;
     width: 100%;
 }
 
 body{
     background-color: #AAD4CF;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: lighter;
 }
  /* main center frame that holds the content */
 .content-holder {
-    max-width: 950px;
+    max-width: 900px;
     position: relative;
     margin: 0px  auto ;
     background-color:#D4E9E7;
@@ -20,23 +32,44 @@ body{
 
 img {
     float: left;
+    padding-bottom: 0.25em;
     width: 25%;
-  }
+}
 
+.article-content {
+    padding: 0.5em;
+}
+
+.article-image {
+    float: left;
+    padding: 1em;
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 25%;
+}
+/* navigation placement and styling */
 nav ul{
     list-style: none;
-    font-weight: bold;
-    font-size:30px;
-    letter-spacing:12px;
+    padding: 1rem;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 0px;
   }
 
 nav ul a{
+    text-decoration: none;
     color:black;
-    text-align: center;
   }
 
 nav ul li {
     display: inline-block;
+    width: 32%;
+    padding: 0.25rem;
+    text-align: center;
     box-sizing: border-box;
-    border-right: 2px solid rgb(39, 39, 39);
+    border-right: 1px solid rgb(39, 39, 39);
   }
+
+  nav ul li:last-child {
+  border: none;
+}
