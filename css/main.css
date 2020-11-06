@@ -1,104 +1,129 @@
-h1{
-    color:white;
-    position: absolute;
-    text-align: center;
-    font-size: 50px;
-    top: 10%;
-    width: 100%;
+
+
+h1 {
+	color: white;
+	position: absolute;
+	text-align: center;
+	font-size: 50px;
+	top: 10%;
+	width: 100%;
 }
 
-body{
-    background-color: #AAD4CF;
-    color: black;
-    font-family: sans-serif;
+body {
+	background-color: #AAD4CF;
+	color: black;
+	font-family: sans-serif;
 }
 
 p {
-    font-size: 14px;
-    font-weight: bold;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: lighter;
+	font-size: 36px;
+	font-weight: lighter;
 }
- /* main center frame that holds the content */
+
+
+/* main center frame that holds the content */
+
 .content-holder {
-    max-width: 900px;
-    position: relative;
-    margin: 0px  auto ;
-    background-color:#D4E9E7;
+	max-width: 900px;
+	position: relative;
+	margin: 0px auto;
+	background-color: #D4E9E7;
 }
 
 img {
-    float: left;
-    padding-bottom: 0.25em;
-    width: 25%;
+	float: left;
+	padding-bottom: 0.25em;
+	width: 25%;
 }
 
 .article-content {
-    padding: 0.5em;
+	padding: 0.5em;
 }
 
 .article-image {
-    float: left;
-    padding: 1em;
-    padding-top: 0px;
-    padding-left: 0px;
-    width: 25%;
+	float: left;
+	padding: 1em;
+	padding-top: 0px;
+	padding-left: 0px;
+	width: 25%;
 }
-/* navigation placement and styling */
-nav ul{
-    list-style: none;
-    padding: 1rem;
-    font-size: 22px;
-    font-weight: lighter;
-    letter-spacing: 0px;
-  }
 
-nav ul a{
-    text-decoration: none;
-    color:black;
-  }
+
+/* navigation placement and styling */
+
+nav ul {
+	list-style: none;
+	padding: 1rem;
+	font-size: 22px;
+	font-weight: lighter;
+	letter-spacing: 0px;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: black;
+}
 
 nav ul li {
-    display: inline-block;
-    border-right: 1px solid rgb(39, 39, 39);
-    width: 32%;
-    padding: 0.25rem;
-    text-align: center;
-    box-sizing: border-box;
-  }
+	display: inline-block;
+	border-right: 1px solid rgb(39, 39, 39);
+	width: 32%;
+	padding: 0.25rem;
+	text-align: center;
+	box-sizing: border-box;
+}
 
-  nav ul li:last-child {
-    border: none;
+nav ul li:last-child {
+	border: none;
 }
 
 .bullet-section {
-    padding-left: 1em;
+	padding-left: 1em;
 }
 
 form {
-    border: 1px solid rgb(39, 39, 39) ;
-    padding: 2em;
-    padding-left: 1em;
+	border: 1px solid rgb(39, 39, 39);
+	padding: 2em;
+	padding-left: 1em;
 }
 
 .form-elements {
-    padding: 10px;
+	padding: 10px;
 }
 
 input {
-    width: 100%;
-    padding-bottom: 0.5em;
-    margin-top: 0.5em;
+	width: 100%;
+	padding-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 textarea {
-    width: 100%;
+	width: 100%;
 }
 
 .review-ticks {
-    display: inline-block;
+	display: inline-block;
+	padding: 0px;
+}
+
+.tick {
+	width: 0%;
+}
+
+button {
+	margin-top: 2em;
+	padding: 0.5em;
+	display: block;
+	border: 1px solid black;
+}
+
+footer {
+	margin-top: 1em;
+	text-align: right;
 }
 
