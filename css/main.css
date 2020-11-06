@@ -6,9 +6,29 @@ h1{
 }
 
 body{
-    background-color:rgb(81, 211, 189);
-    color: black;  
+    background-color: #AAD4CF;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ /* main center frame that holds the content */
+.content-holder {
+    max-width: 950px;
+    position: relative;
+    margin: 0px  auto ;
+    background-color:#D4E9E7;
+}
+
+img {
+    float: left;
+    width: 25%;
+  }
+
+nav ul{
+    list-style: none;
+    font-weight: bold;
+    font-size:30px;
+    letter-spacing:12px;
+  }
 
 nav ul a{
     color:black;
